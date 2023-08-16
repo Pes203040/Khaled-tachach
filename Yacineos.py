@@ -12,16 +12,9 @@ try:
 except ModuleNotFoundError: 
 	print('\n Installing missing modules ...')
 	os.system('pip install requests bs4 futures==2 > /dev/null')
-	os.system('python Yacineos.py')
 	
 print('[•] Join Our Group')
 os.system('xdg-open https://facebook.com/groups/1267077887495034/')
-
-android_models=[]
-try:
-	xx = requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/strings.txt').text.splitlines()
-	for line in xx:
-		android_models.append(line)
 
 except: pass
 
