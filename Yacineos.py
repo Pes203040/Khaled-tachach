@@ -12,19 +12,10 @@ try:
 except ModuleNotFoundError: 
 	print('\n Installing missing modules ...')
 	os.system('pip install requests bs4 futures==2 > /dev/null')
-	os.system('python trt.py')
+	os.system('python Yacineos.py')
 	
 print('[•] Join Our Group')
 os.system('xdg-open https://facebook.com/groups/1267077887495034/')
-
-try:
-	prox= requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt').text
-	open('proxies.txt','w').write(proxies)
-except Exception as e:
-	print('\x1b[1;95m[√] LOADING...')
-	
-proxies=open('proxies.txt','r').read().splitlines()
-
 
 android_models=[]
 try:
