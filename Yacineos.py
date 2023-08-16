@@ -10,7 +10,7 @@ try:
 except ModuleNotFoundError:
         os.system(f'pip install requests futures==2 > /dev/null')
 except:pass
-
+gt = random.choice
 ugen=[]
 useragent=[]
 ua_string=[]
